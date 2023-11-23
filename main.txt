@@ -1,0 +1,48 @@
+Synchronous - it makes to wait the further execution until the previous executions are done.
+Asynchronous - it doesnot make further execution to be waited.
+
+
+Threads - 
+
+JS is single threaded language, but it is Asynchronous in nature.
+(Behind the scene - Event Loop Architecture);
+
+JS will run the code line by line. 
+If it detects some time consuming job/execution,
+it is pushed to the call stack in the event loop, it runs in isolation(in call stack),
+so that new execution will get in.
+
+
+Asnychronous -> Synchronous
+
+Promise -> to handle Asnychronous operation;
+Callback -> to handle Promise (on success and on failure);
+
+Thread - one execution at a time.
+
+Single Thread
+Multi Thread
+
+
+Callback
+What's the callback? - call stack, web API, event loop, queue
+Use & its purpose of the callback
+Pain of callback
+
+//Normal Function
+function myFunc(){
+
+}
+
+//Parameterized Function
+function myFunc1(param1){
+
+}
+
+
+//Callback Function;
+function myFunc2(callback){
+
+}
+
+myFunc2(myFunc);
