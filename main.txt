@@ -46,3 +46,9 @@ function myFunc2(callback){
 }
 
 myFunc2(myFunc);
+
+
+
+
+//
+Observables, Subscriptio, streams, pipe -> RxJS
